@@ -1,0 +1,116 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	margin: 0px;
+}
+.big-padding{
+	padding: 2em 1.5em;
+}
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align: left;
+}
+.white{
+	background-color: white;
+}
+.red-text{
+	color: red;
+}
+.white-text{
+	color: white;
+}
+.blue-grey{
+	background-color: #37474f;
+}
+.absolute{
+	position: absolute;
+}
+.floating{
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	z-index: 100;
+}
+.patient{
+	padding: 1em;
+	position: relative;
+	h1,h2{
+		padding-bottom: 10px;
+		border-bottom: solid 1px;
+		margin-bottom: 1em;
+	}
+	.actions{
+		right: 1em;
+		top: 10px;
+	}
+}
+.blue{
+	background-color: blue;
+}
+.ver-buscador{
+	width: 600px;
+	max-width: 100%;
+	padding: 1em;
+	position: relative;
+	h1{
+		padding-bottom: 10px;
+		border-bottom: solid 1px;
+		margin-bottom: 1em;
+	}
+	.actions{
+		right: 1em;
+		top: 10px;
+	}	
+}
+.search-bar{
+	top: 0px;
+	left: 25%;
+	width: 50%;
+	z-index: 500;
+	transition: all 0.4s;
+}
+.buscador-title{
+	line-height: 1.5em;
+}
+.top-space{
+	margin-top: 1em;
+}
+.big-top-space{
+	margin-top: 5em;
+}
+.circle-search{
+	border-radius: 50%;
+	padding: 5px 10px !important;
+	background-color: #F44336 !important;
+}
+.little-text{
+	font-size: 1.2em;
+}	
+.alertas{
+	background-color: #F21550;
+}
+.noticias{
+	background-color: #1AD9A2;
+}
+.main-background{
+	background-image: url(#{asset_path('background.jpg')});
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.big-height{
+	height: 500px; 
+}
+.big-text{
+	font-size: 1.2em;
+}
+.phone{
+	width:2em;
+	height:4em;
+}
+.titulo{
+	font-size: 3em;
+}

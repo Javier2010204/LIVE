@@ -1,0 +1,49 @@
+<%= form_with(model: attendant, local: true) do |form| %>
+	<% if attendant.errors.any? %>
+		<div id="error_explanation">
+			<h2><%= pluralize(attendant.errors.count, "error") %> No se pudo guardar al paciente por: </h2>
+			<ul>
+			<% attendant.errors.full_messages.each do |message| %>
+				<li><%= message %></li>
+			<% end %>
+			</ul>
+		</div>
+	<% end %>
+	<div class="form-group">
+		<%= form.text_field :name, class: "form-control", placeholder: "Escriba su nombre completo..."%>
+	</div>
+	<div class="form-group">
+		<%= form.email_field :email, class: 'form-control', placeholder: 'Escriba su correo electronico...' %>
+	</div>
+	<div class="form-group">
+		<%= form.number_field :phone, class: 'form-control', placeholder: 'Escriba su numero de telefono...' %>
+	</div>
+	<div class="form-group">
+		<%= form.text_field :occupation, class: 'form-control', placeholder: 'Escriba su ocupacion o trabajo...' %>
+	</div>
+	<div class="form-group">
+		<label>Que tan interesado se siente por el tema del liderazgo</label>
+		<div class="radio radio-primary">
+			<label for="option1">Mucho
+				<%= form.radio_button :interest, "Mucho", :checked => true, id: "option1" %>
+			</label>
+			<label for="option2">Regular
+				<%= form.radio_button :interest, "Regular", :checked => true, id: "option2" %>
+			</label>
+			<label for="option3">Poco
+					<%= form.radio_button :interest, "Poco", :checked => true, id: "option3" %>
+			</label>
+					<label for="option3">Nada
+					<%= form.radio_button :interest, "Nada", :checked => true, id: "option3" %>
+			</label>          
+		</div>
+	</div>
+	<div class="form-group">
+		<%= form.text_area :annotations, class: 'form-control', placeholder: 'Escribanos alguna recomendacion u observacion aqui...' %>
+	</div>
+	<div class="form-group text-right">
+		<%= link_to 'Regresar', root_path %>
+		<%= form.submit "Enviar datos", class: "btn btn-primary"%>
+	</div>
+<% end %>
+

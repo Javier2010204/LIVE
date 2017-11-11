@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @attendant.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @attendant.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @attendant.phone %>
+</p>
+
+<p>
+  <strong>Occupation:</strong>
+  <%= @attendant.occupation %>
+</p>
+
+<p>
+  <strong>Interest:</strong>
+  <%= @attendant.interest %>
+</p>
+
+<p>
+  <strong>Annotations:</strong>
+  <%= @attendant.annotations %>
+</p>
+
+<%= link_to 'Edit', edit_attendant_path(@attendant) %> |
+<%= link_to 'Back', attendants_path %>
