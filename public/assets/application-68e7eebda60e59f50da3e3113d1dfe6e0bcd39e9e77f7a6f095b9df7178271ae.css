@@ -1,0 +1,289 @@
+/* line 1, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.navbar {
+  margin: 0px;
+}
+
+/* line 8, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.big-padding {
+  padding: 2em 1.5em;
+}
+
+/* line 11, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 14, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 17, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.white {
+  background-color: white;
+}
+
+/* line 20, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.red-text {
+  color: red;
+}
+
+/* line 23, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.white-text {
+  color: white;
+}
+
+/* line 26, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.blue-grey {
+  background-color: #37474f;
+}
+
+/* line 29, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 32, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.floating {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  z-index: 100;
+}
+
+/* line 38, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.patient {
+  padding: 1em;
+  position: relative;
+}
+/* line 41, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.patient h1, .patient h2 {
+  padding-bottom: 10px;
+  border-bottom: solid 1px;
+  margin-bottom: 1em;
+}
+/* line 46, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.patient .actions {
+  right: 1em;
+  top: 10px;
+}
+
+/* line 51, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.blue {
+  background-color: blue;
+}
+
+/* line 54, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.ver-buscador {
+  width: 600px;
+  max-width: 100%;
+  padding: 1em;
+  position: relative;
+}
+/* line 59, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.ver-buscador h1 {
+  padding-bottom: 10px;
+  border-bottom: solid 1px;
+  margin-bottom: 1em;
+}
+/* line 64, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.ver-buscador .actions {
+  right: 1em;
+  top: 10px;
+}
+
+/* line 69, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.search-bar {
+  top: 0px;
+  left: 25%;
+  width: 50%;
+  z-index: 500;
+  transition: all 0.4s;
+}
+
+/* line 76, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.buscador-title {
+  line-height: 1.5em;
+}
+
+/* line 79, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.top-space {
+  margin-top: 1em;
+}
+
+/* line 82, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.big-top-space {
+  margin-top: 5em;
+}
+
+/* line 85, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.circle-search {
+  border-radius: 50%;
+  padding: 5px 10px !important;
+  background-color: #F44336 !important;
+}
+
+/* line 90, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.little-text {
+  font-size: 1.2em;
+}
+
+/* line 93, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.alertas {
+  background-color: #F21550;
+}
+
+/* line 96, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.noticias {
+  background-color: #1AD9A2;
+}
+
+/* line 99, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.main-background {
+  background-image: url(/assets/background-c09694e435a19eb152c8d0967263911056903986320c65a2e6510cc721d3efee.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 104, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.big-height {
+  height: 500px;
+}
+
+/* line 107, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.big-text {
+  font-size: 1.2em;
+}
+
+/* line 110, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.phone {
+  width: 2em;
+  height: 4em;
+}
+
+/* line 114, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/common.scss */
+.titulo {
+  font-size: 3em;
+}
+/* line 15, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.red {
+  background-color: #FC4349;
+}
+
+/* line 19, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.red-text {
+  color: #FC4349;
+}
+
+/* line 15, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.pink {
+  background-color: #E4004F;
+}
+
+/* line 19, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.pink-text {
+  color: #E4004F;
+}
+
+/* line 15, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.blue {
+  background-color: #2C3E50;
+}
+
+/* line 19, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.blue-text {
+  color: #2C3E50;
+}
+
+/* line 15, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.grey {
+  background-color: #D7DADB;
+}
+
+/* line 19, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.grey-text {
+  color: #D7DADB;
+}
+
+/* line 15, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.green {
+  background-color: #1BBC9B;
+}
+
+/* line 19, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.green-text {
+  color: #1BBC9B;
+}
+
+/* line 15, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.dark-grey {
+  background-color: #666;
+}
+
+/* line 19, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.dark-grey-text {
+  color: #666;
+}
+
+/* line 15, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.light-blue {
+  background-color: #6DBCDB;
+}
+
+/* line 19, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.light-blue-text {
+  color: #6DBCDB;
+}
+
+/* line 15, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.white {
+  background-color: #fff;
+}
+
+/* line 19, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.white-text {
+  color: #fff;
+}
+
+/* line 15, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.indigo {
+  background-color: #2F33AC;
+}
+
+/* line 19, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.indigo-text {
+  color: #2F33AC;
+}
+
+/* line 15, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.black {
+  background-color: #000;
+}
+
+/* line 19, /home/javier/Documentos/Proyectos/Rails/LIVE/app/assets/stylesheets/colors.scss */
+.black-text {
+  color: #000;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+
+ */
+
